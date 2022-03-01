@@ -31,7 +31,4 @@ function same(arr1, arr2) {
   return true;
 }
 
-console.log(same([1, 2, 3], [1, 4, 9]));
-console.log(same([1, 2, 2], [1, 4, 9]));
-
 module.exports = same;
